@@ -1,5 +1,5 @@
 PODS:
-  - QYZUrlRoute (1.0.1)
+  - QYZUrlRoute (1.0.2)
 
 DEPENDENCIES:
   - QYZUrlRoute (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QYZUrlRoute: 561c82def31e4f57dfa3498bc7bc23186dfc8dfe
+  QYZUrlRoute: 8cce3d448faf2cdb282f6f229bde690e28bde6bd
 
 PODFILE CHECKSUM: d671a4d85ba6777a6a2f6afbc7b274253f2461fe
 
