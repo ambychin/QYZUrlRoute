@@ -7,33 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		052D80948AC57A37FFF324D58030CF5C /* QYZUrlRouteData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B329ECAEF24D8A8AB813969C0402816 /* QYZUrlRouteData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		099A8F285247205E5C542AA8FD4E2EB2 /* QYZUrlRouteCenter+DataReload.h in Headers */ = {isa = PBXBuildFile; fileRef = 5665B3787A54A1B1D7AB397185889E2C /* QYZUrlRouteCenter+DataReload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0598409D7C2407D81FA530D2069E784E /* QYZUrlRouteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD51A350184F4FCDF675ECC7845B8AA /* QYZUrlRouteData.m */; };
+		09BD1F966B98FEC4B1DC90A004A6AC18 /* QYZUrlRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4BE97D794F4DC78124E698AC0D2A60 /* QYZUrlRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C159C7A4E1F6441DED89C7D3A06E063 /* Pods-QYZUrlRoute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB4C4178763C8E6D4AFA852579F82D9 /* Pods-QYZUrlRoute_Example-dummy.m */; };
+		1E12F1AD574A5CC288B3F9BEB3BC0C7F /* QYZUrlRouteMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 0590CD8A828360A77C971E73193EF5A2 /* QYZUrlRouteMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2891DE9C35A219454E021D3179B8CD1F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F26B5C4114CE514B86BFF4A4B48956 /* ReplaceMe.m */; };
+		3ADAE962259C1BEA5CFD1DD44E0FF8CE /* QYZUrlRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4685D3A196F2A07E3B0220580E7506E /* QYZUrlRoute-dummy.m */; };
+		45FA76D9286B66146C1E9E15A234AA9E /* QYZUrlRouteMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = B477078D43794AD52C5C727D9E53700D /* QYZUrlRouteMapping.m */; };
 		4691769219255657EA089511F40138B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4E120DECC1746D1AE89024EAD78ABC7F /* QYZUrlRouteCenter+DataReload.m in Sources */ = {isa = PBXBuildFile; fileRef = 6707FA29EF9AF6AAD2B1E3761FC8BEB0 /* QYZUrlRouteCenter+DataReload.m */; };
+		469C94D651B8D95C11AB9329A1EC849D /* QYZUrlRouteData.h in Headers */ = {isa = PBXBuildFile; fileRef = 782EEDFE744862E074C89B5291C1ECC9 /* QYZUrlRouteData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B813546ABACD50340448E49821A8CEE /* QYZUrlRouteMapFile.plist in Sources */ = {isa = PBXBuildFile; fileRef = 701CB88079F7FE7042BE5CF8CDDB81B9 /* QYZUrlRouteMapFile.plist */; };
+		5B43FA8AFD198B01A539043C535E287A /* UIApplication+QYZUrlRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = C06DE78B7B0F86B5147208D240B6CA57 /* UIApplication+QYZUrlRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C1658C8A7F216B112A0368834122C63 /* Pods-QYZUrlRoute_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76B20703FA0CE6AE92D5A0EC387A433 /* Pods-QYZUrlRoute_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF396E1EF562A21950C345D18B6A77A /* QYZUrlRouteCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC1A61FBA137B3E8A1054A8657926D /* QYZUrlRouteCenter.m */; };
 		644F985F93DA418F1501637FF9F66F18 /* Pods-QYZUrlRoute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D46B98A92902F1084637CCBB5C9B967 /* Pods-QYZUrlRoute_Tests-dummy.m */; };
 		6C442E7D7A0D4E826F1F24AD5723AEC9 /* Pods-QYZUrlRoute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3E0C60DF793F1A83AAC90C30090070 /* Pods-QYZUrlRoute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73BA0CAF1D217724D922046A4CA8FA05 /* QYZUrlRouteData.m in Sources */ = {isa = PBXBuildFile; fileRef = 12220235A6300C3705493CA13346A887 /* QYZUrlRouteData.m */; };
-		8944754F29DD99B2462C550AC6FC0514 /* QYZUrlRouteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EBEBF1527BF633360F715878C172E866 /* QYZUrlRouteConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89852C11FC813DA9ABA0B9428D3CFDDA /* QYZUrlRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 364E7C369251A9F77D0D6D5179929795 /* QYZUrlRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B2652A9EEB0153DB8BD9A32412A079C /* UIViewController+QYZUrlRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C181DDD7CE96D8A2EAB2FD24AA9DC6 /* UIViewController+QYZUrlRoute.m */; };
-		8BE72FB78E09F6DB9609DBC6B4451659 /* QYZUrlRouteCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C93D0D7A32E676359C666292A1815F2 /* QYZUrlRouteCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96C7BB8152C75155DF526ACAFE1A33C5 /* QYZUrlRouteCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85A1D185F1BED7BA2E9F4AFDF1CF /* QYZUrlRouteCenter.m */; };
-		9B51BAA0FB3582F40080A82B0982A86B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 541BDC38E5948A9945178AC720323534 /* ReplaceMe.m */; };
-		9CA15755AC83E4551D78C166DF3CA72F /* QYZUrlRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A90C825AD3C2AED2EC7C69CE1CB7CBB5 /* QYZUrlRoute-dummy.m */; };
+		71A95EA49B4371280465D05495FDADAF /* QYZUrlRouteCenter+DataReload.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A2667F9B4D840EEC1749DCA5119468 /* QYZUrlRouteCenter+DataReload.m */; };
+		7B3B0BAE0455622DE7489D3F8988944E /* QYZUrlRouteCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A4536EE98A27584A2CADB185B5C4195E /* QYZUrlRouteCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		911D81C5B984D4693E23D1B2F098DE56 /* UIViewController+QYZUrlRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C08987BB67A5E80C3C7B696994F5171 /* UIViewController+QYZUrlRoute.m */; };
+		AA455B68E6D4299EE145EF4464CFC181 /* UIApplication+QYZUrlRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DD213577428DB3A14EEB4337F90DB /* UIApplication+QYZUrlRoute.m */; };
 		ABC43CDA8DEB16A3987186D98474498C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B3DF6B833E3E580E5A098EC849FF2698 /* QYZUrlRouteMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B1B4E4EB68EBCD7C7863C8B87F3B39 /* QYZUrlRouteMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B60936F4F436F51755EAEC90B81BC1C0 /* QYZUrlRouteMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = F225FB7D79116F482494C83F8C0C737C /* QYZUrlRouteMapping.m */; };
+		B03911B9C42B7BF7CDDEB7FE2F29C601 /* QYZUrlRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E478811BF6BF091E8192B9829A2C28D /* QYZUrlRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C18B5A366E3CC36269137B6664A18CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C6E187E285EA55F5EF55E13DAE2E8C01 /* QYZMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DF64E0C7A855D961B74AD0558410E4 /* QYZMediator.m */; };
-		C919DD4B9F61D58A7C7B74161A2078FE /* QYZUrlRouteMapFile.plist in Sources */ = {isa = PBXBuildFile; fileRef = DF9665D61D8F247B24B47215D8789CBC /* QYZUrlRouteMapFile.plist */; };
-		D86B29D0751B385E16B373A9333A7D3C /* UIViewController+QYZUrlRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B836FB772A063E32BD8443919CE25C /* UIViewController+QYZUrlRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB8210520BD693782957D74EBC2E64F5 /* QYZMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FFD0A640D13E18AA93E11BE83D683E /* QYZMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDE5262AA10BEE4BFE8B6BAA04C507A3 /* QYZUrlRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD7E53F2FCBC65A0484F8C0FFB59E23 /* QYZUrlRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA196154447EB8ADA357E4FBDFC8EB79 /* UIApplication+QYZUrlRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0095507EEB5D622B72FED0139ECD4DF0 /* UIApplication+QYZUrlRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC1E1F6E61A714036A6AF38F2E263B34 /* UIApplication+QYZUrlRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2A9CDA1DFD5C8BD01EF6FA8E15C006 /* UIApplication+QYZUrlRoute.m */; };
+		C3936DF9A72938DEE5E938DAE5E3FF63 /* QYZUrlRouteConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 235FF03F8A038B8EC1AAE44CDB68F17A /* QYZUrlRouteConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0E4ACED7C32407B06E0CB8D3D398862 /* UIViewController+QYZUrlRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E0E72418AA10A2C940CE32224BAF90 /* UIViewController+QYZUrlRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F02D6B56D7724E70DC332FFA4F412F81 /* QYZUrlRouteCenter+DataReload.h in Headers */ = {isa = PBXBuildFile; fileRef = 49AE164EBE3D39F930E99B86DE606BE5 /* QYZUrlRouteCenter+DataReload.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,58 +52,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0095507EEB5D622B72FED0139ECD4DF0 /* UIApplication+QYZUrlRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+QYZUrlRoute.h"; sourceTree = "<group>"; };
+		0590CD8A828360A77C971E73193EF5A2 /* QYZUrlRouteMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYZUrlRouteMapping.h; sourceTree = "<group>"; };
+		0A391E41F5A079C0E8605376780F00B7 /* QYZUrlRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QYZUrlRoute.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0EFBB2F08A03289C3FEE2F05ABC197C7 /* Pods-QYZUrlRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYZUrlRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		11DF64E0C7A855D961B74AD0558410E4 /* QYZMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYZMediator.m; sourceTree = "<group>"; };
-		12220235A6300C3705493CA13346A887 /* QYZUrlRouteData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYZUrlRouteData.m; sourceTree = "<group>"; };
 		14FD4CFD64BB57D070E7EFA36EFB5FA1 /* Pods-QYZUrlRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYZUrlRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1D145B052EDB67D49F1BF0CE6422135F /* Pods-QYZUrlRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYZUrlRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1D46B98A92902F1084637CCBB5C9B967 /* Pods-QYZUrlRoute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYZUrlRoute_Tests-dummy.m"; sourceTree = "<group>"; };
+		235FF03F8A038B8EC1AAE44CDB68F17A /* QYZUrlRouteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYZUrlRouteConfig.h; sourceTree = "<group>"; };
 		24CE4441E461B4CB3BA40F9B68F22FD1 /* Pods_QYZUrlRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QYZUrlRoute_Tests.framework; path = "Pods-QYZUrlRoute_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2DD213577428DB3A14EEB4337F90DB /* UIApplication+QYZUrlRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+QYZUrlRoute.m"; sourceTree = "<group>"; };
 		2F799124A50126E9531D0F1DA00E0CEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		364E7C369251A9F77D0D6D5179929795 /* QYZUrlRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYZUrlRoute-umbrella.h"; sourceTree = "<group>"; };
-		370D4D7F52B023438D8CFD1BF61131E8 /* QYZUrlRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QYZUrlRoute.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3D741B401F1702316A55B0786159D6BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32349E2967892A02954848C77A8CA837 /* QYZUrlRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYZUrlRoute-prefix.pch"; sourceTree = "<group>"; };
+		40E48B396C4EA93FC4467E8329B64DF1 /* QYZUrlRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYZUrlRoute.xcconfig; sourceTree = "<group>"; };
+		42C4D8644517C4E84847810551F2D269 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44AB1C2408CF95196D36F1052F1589B3 /* Pods-QYZUrlRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYZUrlRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		53AB85A1D185F1BED7BA2E9F4AFDF1CF /* QYZUrlRouteCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYZUrlRouteCenter.m; sourceTree = "<group>"; };
-		541BDC38E5948A9945178AC720323534 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QYZUrlRoute/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		5665B3787A54A1B1D7AB397185889E2C /* QYZUrlRouteCenter+DataReload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYZUrlRouteCenter+DataReload.h"; sourceTree = "<group>"; };
+		49AE164EBE3D39F930E99B86DE606BE5 /* QYZUrlRouteCenter+DataReload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYZUrlRouteCenter+DataReload.h"; sourceTree = "<group>"; };
 		58A10B3792CC801CAB38482322E8EE5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C93D0D7A32E676359C666292A1815F2 /* QYZUrlRouteCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYZUrlRouteCenter.h; sourceTree = "<group>"; };
-		60D6521FFD17DEC650F67DEC73314D95 /* QYZUrlRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYZUrlRoute-prefix.pch"; sourceTree = "<group>"; };
-		62CFB454BD27C0E61229F7F47AB0D1F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6707FA29EF9AF6AAD2B1E3761FC8BEB0 /* QYZUrlRouteCenter+DataReload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYZUrlRouteCenter+DataReload.m"; sourceTree = "<group>"; };
 		6BECA79DD627B95FEF145831E594D7AD /* Pods-QYZUrlRoute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYZUrlRoute_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6D51FAC76BD33D22AE710893CD2253E1 /* Pods-QYZUrlRoute_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYZUrlRoute_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6D839B847E87B85F625FF0D592B42819 /* Pods-QYZUrlRoute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYZUrlRoute_Example.modulemap"; sourceTree = "<group>"; };
+		701CB88079F7FE7042BE5CF8CDDB81B9 /* QYZUrlRouteMapFile.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = QYZUrlRouteMapFile.plist; sourceTree = "<group>"; };
+		71B000EA61EEFCA0D62740EBD8FC2A4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		74EB1831DEEA90FEB346D8127D7C3C65 /* Pods-QYZUrlRoute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYZUrlRoute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7FBF5D17091BF0B3B34334ACFB7CD44E /* QYZUrlRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYZUrlRoute.modulemap; sourceTree = "<group>"; };
+		782EEDFE744862E074C89B5291C1ECC9 /* QYZUrlRouteData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYZUrlRouteData.h; sourceTree = "<group>"; };
+		7CD51A350184F4FCDF675ECC7845B8AA /* QYZUrlRouteData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYZUrlRouteData.m; sourceTree = "<group>"; };
+		87C59A316FDC8B2B20DCE8993C31C3FD /* QYZUrlRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QYZUrlRoute.modulemap; sourceTree = "<group>"; };
+		88E0E72418AA10A2C940CE32224BAF90 /* UIViewController+QYZUrlRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QYZUrlRoute.h"; sourceTree = "<group>"; };
 		8CA5FAEC6E5096CC96E13D4BF610896D /* Pods_QYZUrlRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QYZUrlRoute_Example.framework; path = "Pods-QYZUrlRoute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D2A9CDA1DFD5C8BD01EF6FA8E15C006 /* UIApplication+QYZUrlRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+QYZUrlRoute.m"; sourceTree = "<group>"; };
+		8DFC1A61FBA137B3E8A1054A8657926D /* QYZUrlRouteCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYZUrlRouteCenter.m; sourceTree = "<group>"; };
+		92F26B5C4114CE514B86BFF4A4B48956 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QYZUrlRoute/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9470213377D7A27EA758FB8875B0D2A0 /* Pods-QYZUrlRoute_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYZUrlRoute_Tests-resources.sh"; sourceTree = "<group>"; };
-		99B1B4E4EB68EBCD7C7863C8B87F3B39 /* QYZUrlRouteMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYZUrlRouteMapping.h; sourceTree = "<group>"; };
-		9B329ECAEF24D8A8AB813969C0402816 /* QYZUrlRouteData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYZUrlRouteData.h; sourceTree = "<group>"; };
-		9CD7E53F2FCBC65A0484F8C0FFB59E23 /* QYZUrlRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYZUrlRoute.h; path = QYZUrlRoute/Classes/QYZUrlRoute.h; sourceTree = "<group>"; };
-		A90C825AD3C2AED2EC7C69CE1CB7CBB5 /* QYZUrlRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYZUrlRoute-dummy.m"; sourceTree = "<group>"; };
+		9C08987BB67A5E80C3C7B696994F5171 /* UIViewController+QYZUrlRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QYZUrlRoute.m"; sourceTree = "<group>"; };
+		9E478811BF6BF091E8192B9829A2C28D /* QYZUrlRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYZUrlRoute.h; path = QYZUrlRoute/Classes/QYZUrlRoute.h; sourceTree = "<group>"; };
+		A4536EE98A27584A2CADB185B5C4195E /* QYZUrlRouteCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYZUrlRouteCenter.h; sourceTree = "<group>"; };
 		AFB4C4178763C8E6D4AFA852579F82D9 /* Pods-QYZUrlRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QYZUrlRoute_Example-dummy.m"; sourceTree = "<group>"; };
-		B1FFD0A640D13E18AA93E11BE83D683E /* QYZMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYZMediator.h; sourceTree = "<group>"; };
-		B5C181DDD7CE96D8A2EAB2FD24AA9DC6 /* UIViewController+QYZUrlRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QYZUrlRoute.m"; sourceTree = "<group>"; };
+		B4685D3A196F2A07E3B0220580E7506E /* QYZUrlRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYZUrlRoute-dummy.m"; sourceTree = "<group>"; };
+		B477078D43794AD52C5C727D9E53700D /* QYZUrlRouteMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYZUrlRouteMapping.m; sourceTree = "<group>"; };
 		B791889ABE3E73CF811313ABF36F1D0D /* QYZUrlRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QYZUrlRoute.framework; path = QYZUrlRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB6CA1BEE07C280EB9C81A332050760B /* QYZUrlRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QYZUrlRoute.xcconfig; sourceTree = "<group>"; };
 		BDC3DD2A4E2FA9C966890DE675C006E8 /* Pods-QYZUrlRoute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QYZUrlRoute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C06DE78B7B0F86B5147208D240B6CA57 /* UIApplication+QYZUrlRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+QYZUrlRoute.h"; sourceTree = "<group>"; };
 		C9569082BDEBD0699C045C232D91A208 /* Pods-QYZUrlRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QYZUrlRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4BE97D794F4DC78124E698AC0D2A60 /* QYZUrlRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QYZUrlRoute-umbrella.h"; sourceTree = "<group>"; };
 		CCC0BE27ECF09FB680269DA1C9A12E80 /* Pods-QYZUrlRoute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QYZUrlRoute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D9E1F479D3FDA7BCAB07AB9A24E153E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DB3E0C60DF793F1A83AAC90C30090070 /* Pods-QYZUrlRoute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYZUrlRoute_Example-umbrella.h"; sourceTree = "<group>"; };
-		DF9665D61D8F247B24B47215D8789CBC /* QYZUrlRouteMapFile.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = QYZUrlRouteMapFile.plist; sourceTree = "<group>"; };
+		E5A2667F9B4D840EEC1749DCA5119468 /* QYZUrlRouteCenter+DataReload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QYZUrlRouteCenter+DataReload.m"; sourceTree = "<group>"; };
 		E76B20703FA0CE6AE92D5A0EC387A433 /* Pods-QYZUrlRoute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QYZUrlRoute_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EBEBF1527BF633360F715878C172E866 /* QYZUrlRouteConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QYZUrlRouteConfig.h; sourceTree = "<group>"; };
 		ED6EEE4B27A403249478BFD4F88BEF17 /* Pods-QYZUrlRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QYZUrlRoute_Tests.modulemap"; sourceTree = "<group>"; };
-		F225FB7D79116F482494C83F8C0C737C /* QYZUrlRouteMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QYZUrlRouteMapping.m; sourceTree = "<group>"; };
-		F2B836FB772A063E32BD8443919CE25C /* UIViewController+QYZUrlRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QYZUrlRoute.h"; sourceTree = "<group>"; };
 		F8C091B2AC93C410123D43C1EFDF5401 /* Pods-QYZUrlRoute_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QYZUrlRoute_Example-resources.sh"; sourceTree = "<group>"; };
+		F9EB108C72B35A13B8F5183613BBE0FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,13 +132,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		243D0FD631020A1BD3A100305CC4267C /* Data */ = {
+		125D8F3537D14E16A21E586487A92A76 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				DF9665D61D8F247B24B47215D8789CBC /* QYZUrlRouteMapFile.plist */,
+				701CB88079F7FE7042BE5CF8CDDB81B9 /* QYZUrlRouteMapFile.plist */,
 			);
 			name = Data;
 			path = QYZUrlRoute/Classes/Data;
+			sourceTree = "<group>";
+		};
+		23B954A2D328F4D77A4ED913173AA18A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD98C67E11F8487EB31E484FB0DAED7A /* QYZUrlRoute */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2665757EC69F8CE8E41A9308298DF84B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A4536EE98A27584A2CADB185B5C4195E /* QYZUrlRouteCenter.h */,
+				8DFC1A61FBA137B3E8A1054A8657926D /* QYZUrlRouteCenter.m */,
+				235FF03F8A038B8EC1AAE44CDB68F17A /* QYZUrlRouteConfig.h */,
+				782EEDFE744862E074C89B5291C1ECC9 /* QYZUrlRouteData.h */,
+				7CD51A350184F4FCDF675ECC7845B8AA /* QYZUrlRouteData.m */,
+				0590CD8A828360A77C971E73193EF5A2 /* QYZUrlRouteMapping.h */,
+				B477078D43794AD52C5C727D9E53700D /* QYZUrlRouteMapping.m */,
+				C06DE78B7B0F86B5147208D240B6CA57 /* UIApplication+QYZUrlRoute.h */,
+				2E2DD213577428DB3A14EEB4337F90DB /* UIApplication+QYZUrlRoute.m */,
+				88E0E72418AA10A2C940CE32224BAF90 /* UIViewController+QYZUrlRoute.h */,
+				9C08987BB67A5E80C3C7B696994F5171 /* UIViewController+QYZUrlRoute.m */,
+			);
+			name = Base;
+			path = QYZUrlRoute/Classes/Base;
 			sourceTree = "<group>";
 		};
 		3A82EDC627658988EA07D6A792E7F943 /* Products */ = {
@@ -164,80 +187,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		424062B1E53359A2683C425B0ABC71E7 /* Support Files */ = {
+		70F3845F894257A92FCE021E768EAA7C /* Ext */ = {
 			isa = PBXGroup;
 			children = (
-				3D741B401F1702316A55B0786159D6BE /* Info.plist */,
-				7FBF5D17091BF0B3B34334ACFB7CD44E /* QYZUrlRoute.modulemap */,
-				BB6CA1BEE07C280EB9C81A332050760B /* QYZUrlRoute.xcconfig */,
-				A90C825AD3C2AED2EC7C69CE1CB7CBB5 /* QYZUrlRoute-dummy.m */,
-				60D6521FFD17DEC650F67DEC73314D95 /* QYZUrlRoute-prefix.pch */,
-				364E7C369251A9F77D0D6D5179929795 /* QYZUrlRoute-umbrella.h */,
+				49AE164EBE3D39F930E99B86DE606BE5 /* QYZUrlRouteCenter+DataReload.h */,
+				E5A2667F9B4D840EEC1749DCA5119468 /* QYZUrlRouteCenter+DataReload.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QYZUrlRoute";
-			sourceTree = "<group>";
-		};
-		48D6A300173EE9D18F23605B1191C941 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8EFCF07ECA0D5B7C47DD03CF8E9F8A42 /* QYZUrlRoute */,
-			);
-			name = "Development Pods";
+			name = Ext;
+			path = QYZUrlRoute/Classes/Ext;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				48D6A300173EE9D18F23605B1191C941 /* Development Pods */,
+				23B954A2D328F4D77A4ED913173AA18A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				3A82EDC627658988EA07D6A792E7F943 /* Products */,
 				3DC504E9DDC212C38A8E6F75720C6A9C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8EFCF07ECA0D5B7C47DD03CF8E9F8A42 /* QYZUrlRoute */ = {
+		882D3CE62887C99763B77D32616AC43D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9CD7E53F2FCBC65A0484F8C0FFB59E23 /* QYZUrlRoute.h */,
-				541BDC38E5948A9945178AC720323534 /* ReplaceMe.m */,
-				98F59AFCC6BBFD473D9AA78D01AB2F84 /* Base */,
-				243D0FD631020A1BD3A100305CC4267C /* Data */,
-				DDC12492CC8C6414E9466ECF0361670E /* Ext */,
-				B3D1C6A0F0B4545A30E29B66CAEBC409 /* Pod */,
-				BF8563E3EAE063E674DF64817035C9AB /* QYZMediator */,
-				424062B1E53359A2683C425B0ABC71E7 /* Support Files */,
-			);
-			name = QYZUrlRoute;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		98F59AFCC6BBFD473D9AA78D01AB2F84 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				5C93D0D7A32E676359C666292A1815F2 /* QYZUrlRouteCenter.h */,
-				53AB85A1D185F1BED7BA2E9F4AFDF1CF /* QYZUrlRouteCenter.m */,
-				EBEBF1527BF633360F715878C172E866 /* QYZUrlRouteConfig.h */,
-				9B329ECAEF24D8A8AB813969C0402816 /* QYZUrlRouteData.h */,
-				12220235A6300C3705493CA13346A887 /* QYZUrlRouteData.m */,
-				99B1B4E4EB68EBCD7C7863C8B87F3B39 /* QYZUrlRouteMapping.h */,
-				F225FB7D79116F482494C83F8C0C737C /* QYZUrlRouteMapping.m */,
-				0095507EEB5D622B72FED0139ECD4DF0 /* UIApplication+QYZUrlRoute.h */,
-				8D2A9CDA1DFD5C8BD01EF6FA8E15C006 /* UIApplication+QYZUrlRoute.m */,
-				F2B836FB772A063E32BD8443919CE25C /* UIViewController+QYZUrlRoute.h */,
-				B5C181DDD7CE96D8A2EAB2FD24AA9DC6 /* UIViewController+QYZUrlRoute.m */,
-			);
-			name = Base;
-			path = QYZUrlRoute/Classes/Base;
-			sourceTree = "<group>";
-		};
-		B3D1C6A0F0B4545A30E29B66CAEBC409 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				62CFB454BD27C0E61229F7F47AB0D1F9 /* LICENSE */,
-				370D4D7F52B023438D8CFD1BF61131E8 /* QYZUrlRoute.podspec */,
-				D9E1F479D3FDA7BCAB07AB9A24E153E8 /* README.md */,
+				71B000EA61EEFCA0D62740EBD8FC2A4B /* LICENSE */,
+				0A391E41F5A079C0E8605376780F00B7 /* QYZUrlRoute.podspec */,
+				F9EB108C72B35A13B8F5183613BBE0FC /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -250,16 +226,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF8563E3EAE063E674DF64817035C9AB /* QYZMediator */ = {
-			isa = PBXGroup;
-			children = (
-				B1FFD0A640D13E18AA93E11BE83D683E /* QYZMediator.h */,
-				11DF64E0C7A855D961B74AD0558410E4 /* QYZMediator.m */,
-			);
-			name = QYZMediator;
-			path = QYZUrlRoute/Classes/QYZMediator;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,14 +234,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DDC12492CC8C6414E9466ECF0361670E /* Ext */ = {
+		DD98C67E11F8487EB31E484FB0DAED7A /* QYZUrlRoute */ = {
 			isa = PBXGroup;
 			children = (
-				5665B3787A54A1B1D7AB397185889E2C /* QYZUrlRouteCenter+DataReload.h */,
-				6707FA29EF9AF6AAD2B1E3761FC8BEB0 /* QYZUrlRouteCenter+DataReload.m */,
+				9E478811BF6BF091E8192B9829A2C28D /* QYZUrlRoute.h */,
+				92F26B5C4114CE514B86BFF4A4B48956 /* ReplaceMe.m */,
+				2665757EC69F8CE8E41A9308298DF84B /* Base */,
+				125D8F3537D14E16A21E586487A92A76 /* Data */,
+				70F3845F894257A92FCE021E768EAA7C /* Ext */,
+				882D3CE62887C99763B77D32616AC43D /* Pod */,
+				E9B4456EEA4B33CE199EFBF347D7B9FF /* Support Files */,
 			);
-			name = Ext;
-			path = QYZUrlRoute/Classes/Ext;
+			name = QYZUrlRoute;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E9B4456EEA4B33CE199EFBF347D7B9FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42C4D8644517C4E84847810551F2D269 /* Info.plist */,
+				87C59A316FDC8B2B20DCE8993C31C3FD /* QYZUrlRoute.modulemap */,
+				40E48B396C4EA93FC4467E8329B64DF1 /* QYZUrlRoute.xcconfig */,
+				B4685D3A196F2A07E3B0220580E7506E /* QYZUrlRoute-dummy.m */,
+				32349E2967892A02954848C77A8CA837 /* QYZUrlRoute-prefix.pch */,
+				CB4BE97D794F4DC78124E698AC0D2A60 /* QYZUrlRoute-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QYZUrlRoute";
 			sourceTree = "<group>";
 		};
 		ED6B249FB5162242A31A98F388B6DB07 /* Pods-QYZUrlRoute_Tests */ = {
@@ -317,28 +302,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		062E8D00CB4EA030A9F35DA6954175B4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB8210520BD693782957D74EBC2E64F5 /* QYZMediator.h in Headers */,
-				89852C11FC813DA9ABA0B9428D3CFDDA /* QYZUrlRoute-umbrella.h in Headers */,
-				DDE5262AA10BEE4BFE8B6BAA04C507A3 /* QYZUrlRoute.h in Headers */,
-				099A8F285247205E5C542AA8FD4E2EB2 /* QYZUrlRouteCenter+DataReload.h in Headers */,
-				8BE72FB78E09F6DB9609DBC6B4451659 /* QYZUrlRouteCenter.h in Headers */,
-				8944754F29DD99B2462C550AC6FC0514 /* QYZUrlRouteConfig.h in Headers */,
-				052D80948AC57A37FFF324D58030CF5C /* QYZUrlRouteData.h in Headers */,
-				B3DF6B833E3E580E5A098EC849FF2698 /* QYZUrlRouteMapping.h in Headers */,
-				EA196154447EB8ADA357E4FBDFC8EB79 /* UIApplication+QYZUrlRoute.h in Headers */,
-				D86B29D0751B385E16B373A9333A7D3C /* UIViewController+QYZUrlRoute.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1392130F4754CAD671222B9502E9B202 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6C442E7D7A0D4E826F1F24AD5723AEC9 /* Pods-QYZUrlRoute_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A55A8A60799C0750675155AD3722C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BD1F966B98FEC4B1DC90A004A6AC18 /* QYZUrlRoute-umbrella.h in Headers */,
+				B03911B9C42B7BF7CDDEB7FE2F29C601 /* QYZUrlRoute.h in Headers */,
+				F02D6B56D7724E70DC332FFA4F412F81 /* QYZUrlRouteCenter+DataReload.h in Headers */,
+				7B3B0BAE0455622DE7489D3F8988944E /* QYZUrlRouteCenter.h in Headers */,
+				C3936DF9A72938DEE5E938DAE5E3FF63 /* QYZUrlRouteConfig.h in Headers */,
+				469C94D651B8D95C11AB9329A1EC849D /* QYZUrlRouteData.h in Headers */,
+				1E12F1AD574A5CC288B3F9BEB3BC0C7F /* QYZUrlRouteMapping.h in Headers */,
+				5B43FA8AFD198B01A539043C535E287A /* UIApplication+QYZUrlRoute.h in Headers */,
+				E0E4ACED7C32407B06E0CB8D3D398862 /* UIViewController+QYZUrlRoute.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,9 +359,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28366A0CD0F0D9A8325C52B5B41AAA81 /* Build configuration list for PBXNativeTarget "QYZUrlRoute" */;
 			buildPhases = (
-				EF8B47EE842473AE01FAC68004873313 /* Sources */,
+				2AF7A34F7BEF56943DBC200F83930D56 /* Sources */,
 				13AAFC3E1552CA214156EACD0F67322A /* Frameworks */,
-				062E8D00CB4EA030A9F35DA6954175B4 /* Headers */,
+				49A55A8A60799C0750675155AD3722C9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -443,28 +427,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2AF7A34F7BEF56943DBC200F83930D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADAE962259C1BEA5CFD1DD44E0FF8CE /* QYZUrlRoute-dummy.m in Sources */,
+				71A95EA49B4371280465D05495FDADAF /* QYZUrlRouteCenter+DataReload.m in Sources */,
+				5FF396E1EF562A21950C345D18B6A77A /* QYZUrlRouteCenter.m in Sources */,
+				0598409D7C2407D81FA530D2069E784E /* QYZUrlRouteData.m in Sources */,
+				4B813546ABACD50340448E49821A8CEE /* QYZUrlRouteMapFile.plist in Sources */,
+				45FA76D9286B66146C1E9E15A234AA9E /* QYZUrlRouteMapping.m in Sources */,
+				2891DE9C35A219454E021D3179B8CD1F /* ReplaceMe.m in Sources */,
+				AA455B68E6D4299EE145EF4464CFC181 /* UIApplication+QYZUrlRoute.m in Sources */,
+				911D81C5B984D4693E23D1B2F098DE56 /* UIViewController+QYZUrlRoute.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86178E133837C638B8DA9A65A3D05FBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				644F985F93DA418F1501637FF9F66F18 /* Pods-QYZUrlRoute_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF8B47EE842473AE01FAC68004873313 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6E187E285EA55F5EF55E13DAE2E8C01 /* QYZMediator.m in Sources */,
-				9CA15755AC83E4551D78C166DF3CA72F /* QYZUrlRoute-dummy.m in Sources */,
-				4E120DECC1746D1AE89024EAD78ABC7F /* QYZUrlRouteCenter+DataReload.m in Sources */,
-				96C7BB8152C75155DF526ACAFE1A33C5 /* QYZUrlRouteCenter.m in Sources */,
-				73BA0CAF1D217724D922046A4CA8FA05 /* QYZUrlRouteData.m in Sources */,
-				C919DD4B9F61D58A7C7B74161A2078FE /* QYZUrlRouteMapFile.plist in Sources */,
-				B60936F4F436F51755EAEC90B81BC1C0 /* QYZUrlRouteMapping.m in Sources */,
-				9B51BAA0FB3582F40080A82B0982A86B /* ReplaceMe.m in Sources */,
-				EC1E1F6E61A714036A6AF38F2E263B34 /* UIApplication+QYZUrlRoute.m in Sources */,
-				8B2652A9EEB0153DB8BD9A32412A079C /* UIViewController+QYZUrlRoute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +471,7 @@
 /* Begin XCBuildConfiguration section */
 		254C3B7D2F68464642DB6933B55A4F5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB6CA1BEE07C280EB9C81A332050760B /* QYZUrlRoute.xcconfig */;
+			baseConfigurationReference = 40E48B396C4EA93FC4467E8329B64DF1 /* QYZUrlRoute.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -586,7 +569,7 @@
 		};
 		84BBBFB93BE25EF7B5E8456D042E080F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB6CA1BEE07C280EB9C81A332050760B /* QYZUrlRoute.xcconfig */;
+			baseConfigurationReference = 40E48B396C4EA93FC4467E8329B64DF1 /* QYZUrlRoute.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

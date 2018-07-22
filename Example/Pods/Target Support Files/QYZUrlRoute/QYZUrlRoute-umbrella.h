@@ -17,7 +17,6 @@
 #import "UIApplication+QYZUrlRoute.h"
 #import "UIViewController+QYZUrlRoute.h"
 #import "QYZUrlRouteCenter+DataReload.h"
-#import "QYZMediator.h"
 #import "QYZUrlRoute.h"
 
 FOUNDATION_EXPORT double QYZUrlRouteVersionNumber;

@@ -9,8 +9,6 @@
 #ifndef QYZUrlRoute_h
 #define QYZUrlRoute_h
 
-#import "QYZMediator.h"
-
 #import "QYZUrlRouteConfig.h"
 #import "QYZUrlRouteCenter.h"
 
