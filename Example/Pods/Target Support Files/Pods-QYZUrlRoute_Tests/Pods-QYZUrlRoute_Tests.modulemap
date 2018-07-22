@@ -1,0 +1,6 @@
+framework module Pods_QYZUrlRoute_Tests {
+  umbrella header "Pods-QYZUrlRoute_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

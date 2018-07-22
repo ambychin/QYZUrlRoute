@@ -1,0 +1,6 @@
+framework module QYZUrlRoute {
+  umbrella header "QYZUrlRoute-umbrella.h"
+
+  export *
+  module * { export * }
+}

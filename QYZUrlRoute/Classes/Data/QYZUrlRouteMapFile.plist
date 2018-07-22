@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MainInterfaceViewController</key>
+	<string>MainInterfaceViewController</string>
+	<key>ChatListViewController</key>
+	<string>ChatListViewController</string>
+	<key>NotificationsListViewController</key>
+	<string>NotificationsListViewController</string>
+	<key>MineViewController</key>
+	<string>MineViewController</string>
+</dict>
+</plist>

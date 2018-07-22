@@ -1,0 +1,16 @@
+PODS:
+  - QYZUrlRoute (0.1.0)
+
+DEPENDENCIES:
+  - QYZUrlRoute (from `../`)
+
+EXTERNAL SOURCES:
+  QYZUrlRoute:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QYZUrlRoute: fe01a7fd65ab7bd814a83c061a6ed0baefbbf9f7
+
+PODFILE CHECKSUM: d671a4d85ba6777a6a2f6afbc7b274253f2461fe
+
+COCOAPODS: 1.5.3
