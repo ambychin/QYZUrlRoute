@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QYZUrlRoute_Example' do
+  pod 'QYZUrlRoute', :path => '../'
+
+  target 'QYZUrlRoute_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
