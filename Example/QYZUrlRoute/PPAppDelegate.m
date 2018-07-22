@@ -2,17 +2,26 @@
 //  PPAppDelegate.m
 //  QYZUrlRoute
 //
-//  Created by ambychin on 07/22/2018.
+//  Created by ambychin on 07/20/2018.
 //  Copyright (c) 2018 ambychin. All rights reserved.
 //
 
 #import "PPAppDelegate.h"
+#import "PPViewController.h"
 
 @implementation PPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    PPViewController *vc = [[PPViewController alloc] init];
+    UINavigationController  *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     // Override point for customization after application launch.
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 

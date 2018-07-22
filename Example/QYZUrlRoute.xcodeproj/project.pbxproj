@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7446E2EA621F228460E88FD4 /* Pods_QYZUrlRoute_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B381A426E4BBC47979FF2B3 /* Pods_QYZUrlRoute_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CDB22BB32104847600E4194F /* TestPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB22BB22104847600E4194F /* TestPushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		987F1B8291C264AC2D5369E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B381A426E4BBC47979FF2B3 /* Pods_QYZUrlRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYZUrlRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81090836C83C5082B366729 /* Pods_QYZUrlRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYZUrlRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB22BB12104847600E4194F /* TestPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPushViewController.h; sourceTree = "<group>"; };
+		CDB22BB22104847600E4194F /* TestPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPushViewController.m; sourceTree = "<group>"; };
 		F166F39A4F1CA6A04B7FA60A /* QYZUrlRoute.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYZUrlRoute.podspec; path = ../QYZUrlRoute.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -143,6 +146,8 @@
 		6003F593195388D20070C39A /* Example for QYZUrlRoute */ = {
 			isa = PBXGroup;
 			children = (
+				CDB22BB12104847600E4194F /* TestPushViewController.h */,
+				CDB22BB22104847600E4194F /* TestPushViewController.m */,
 				6003F59C195388D20070C39A /* PPAppDelegate.h */,
 				6003F59D195388D20070C39A /* PPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -360,6 +365,7 @@
 			files = (
 				6003F59E195388D20070C39A /* PPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PPViewController.m in Sources */,
+				CDB22BB32104847600E4194F /* TestPushViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
